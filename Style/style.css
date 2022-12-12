@@ -129,10 +129,11 @@ nav{
     top: 100px;
 }
 .producto{
+    display: flex;
     font-family: 'Roboto', sans-serif;
     padding: 15px;
     width: 300px;
-    height: 370px;
+    height: 380px;
     border: 2px solid rgba(221, 112, 45, 1);
     border-radius: 15px;
     justify-content: center;
@@ -149,9 +150,8 @@ nav{
 .producto .carrito{
     width: 34px;
     height: 34px;
-    position: relative;
-    bottom: 25px;
-    left: 230px;
+    margin-top: 300px;
+    margin-left: 40px;
 }
 .producto h4{
     color: gray;
@@ -254,7 +254,7 @@ nav{
 .contenedor-categoria img{
     height: 140px;
 }
-/*pie de pagina*/
+/*Footer pie de pagina*/
 footer{
     width: 100%;
     height: 150px;
@@ -265,6 +265,9 @@ footer{
     display: flex;
     justify-content: space-around;
     font-size: 12px;
+}
+.pie img{
+    width: 25px;
 }
 .pie ul{
     list-style: none;
@@ -461,4 +464,49 @@ footer h6{
     font-family: 'Short Stack', cursive;
     margin-left: 50px;
     margin-top: 10px;
+}
+/*Pagina Nosotros*/
+.nosotros{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros h1{
+    font-family: 'Short Stack', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(166, 29, 47, 1);
+    text-align: center;
+}
+.nosotros h2{
+    font-family: 'Short Stack', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(59, 136, 195, 1);
+}
+.nosotros p{
+    margin-bottom: 80px;
+}
+/*Pag Contactenos*/
+.contenedor-ubicacion{
+    margin: 100px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-ubicacion ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.contenedor-ubicacion img{
+    width: 30px;
+}
+.contenedor-ubicacion a{
+    text-decoration: none;
+    color: black;
 }
